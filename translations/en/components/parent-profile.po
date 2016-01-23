@@ -1,0 +1,65 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-23 12:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.14.0-alpha1\n"
+
+#: app/templates/components/parent-profile.hbs+h2:1
+msgid "Parent profiles"
+msgstr "Parent profiles"
+
+#: app/templates/components/parent-profile.hbs+form.div:3
+msgid ""
+"<label>First Name:</label> {{input value = firstName type=\"text\" "
+"placeholder=\"First Name\"}}"
+msgstr ""
+"<label>First Name:</label> {{input value = firstName type=\"text\" "
+"placeholder=\"First Name\"}}"
+
+#: app/templates/components/parent-profile.hbs+form.div:8
+msgid ""
+"<label>Last Name:</label> {{input value = lastName type=\"text\" placeholder="
+"\"Last Name\"}}"
+msgstr ""
+"<label>Last Name:</label> {{input value = lastName type=\"text\" placeholder="
+"\"Last Name\"}}"
+
+#: app/templates/components/parent-profile.hbs+form.div:13
+msgid ""
+"<label>Nationality:</label> <select onchange={{action (mut nationalityIndex) "
+"value=\"target.value\"}}> {{#each nationalities as |nationalityChoice "
+"index|}} <option value={{ index }} selected={{eq nationalityIndex "
+"index}}>{{nationalityChoice.name}}</option> {{/each}} </select>"
+msgstr ""
+"<label>Nationality:</label> <select onchange={{action (mut nationalityIndex) "
+"value=\"target.value\"}}> {{#each nationalities as |nationalityChoice "
+"index|}} <option value={{ index }} selected={{eq nationalityIndex "
+"index}}>{{nationalityChoice.name}}</option> {{/each}} </select>"
+
+#: app/templates/components/parent-profile.hbs+form.div:22
+msgid ""
+"<label>Gender:</label> <select onchange={{action (mut genderIndex) value=\""
+"target.value\"}}> {{#each genders as |genderChoice index|}} <option value={{ "
+"index }} selected={{eq genderIndex index}}>{{genderChoice.name}}</option> "
+"{{/each}} </select>"
+msgstr ""
+"<label>Gender:</label> <select onchange={{action (mut genderIndex) value=\""
+"target.value\"}}> {{#each genders as |genderChoice index|}} <option value={{ "
+"index }} selected={{eq genderIndex index}}>{{genderChoice.name}}</option> "
+"{{/each}} </select>"
+
+#: app/templates/components/parent-profile.hbs+div.p:34
+msgid "Name: {{firstName}} {{lastName}}"
+msgstr "Name: {{firstName}} {{lastName}}"
+
+#: app/templates/components/parent-profile.hbs+div.p:35
+msgid "Nationality: {{nationality.name}}"
+msgstr "Nationality: {{nationality.name}}"
